@@ -1,0 +1,694 @@
+@media (min-width:320px) and (max-width:575px){
+
+    /* -----------common css start---------------- */
+    .title p{
+        width: 100%;
+    }
+    /* -----------common css end---------------- */
+
+            /* --------------header-part css start------------- */
+            #header-part{
+                text-align: center;
+            }
+            #header-part span{
+                display: block;
+            }
+            #header-part a{
+                display: inline-block;
+            }
+            #header-part .right{
+                text-align: center;
+            }
+            /* --------------header-part css end------------- */
+
+
+            /* --------------navbar-part css start------------- */
+    nav button i{
+        margin-top: 20px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0rem;
+    }
+    .navbar-collapse{
+        margin-bottom: 10px;
+        margin-left: 32px;
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav .btn{
+        display: block;
+    }
+    nav .btn a {
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+            /* --------------navbar-part css end------------- */
+
+            /* --------------bannner-part css start------------- */
+    #banner-part .banner .overlay{
+        padding: 30px 0;
+    }
+    #banner-part .banner .overlay .item h3{
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay .item h2{
+        font-size: 28px;
+    }
+    #banner-part .banner .overlay .item p{
+        width: 100%;
+    }
+    #banner-part .banner .overlay .item p{
+        margin-top: 10px;
+    }
+    #banner-part .banner .overlay .item a{
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+            /* --------------bannner-part css end------------- */
+
+            /* --------------bannner-bottom-part css start------------- */
+
+    #banner-bottom{
+        margin-left:0 ;
+        margin-bottom: 20px;
+    }
+    #banner-bottom .item{
+        transform: translate(0%);
+    }
+    /* --------------bannner-bottom-part css end------------- */
+
+   /* --------------about-part css start------------- */
+  
+   #about-part{}
+   #about-part .shape::before {
+	top: 30px;
+	left: 204px;
+	height: 2px;
+}
+   #about-part .shape::after {
+	top: 30px;
+	width: 200px;
+	height: 2px;
+}
+#about-part .shape2::before {
+	bottom: 30px;
+	right: 204px;
+	width: 10px;
+	height: 2px;
+    margin-right: 30px;
+}
+#about-part .shape2::after {
+	bottom: 30px;
+	right: 0px;
+	width: 200px;
+	height: 2px;
+    margin-right: 30px;
+}
+   #about-part .slick-dots{
+       bottom: 25px;
+       left: 32%;
+   }
+   #about-part .text p {
+	margin-bottom: 15px;
+}
+#about-part .text a {
+	font-size: 16px;
+	padding: 12px 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+    /* --------------about-part css end------------- */
+
+
+    /* --------------counter-up-part css start------------- */
+    #counter-up{
+        padding: 30px 0px;
+    }
+    #counter-up h3{
+        font-size: 18px;
+    }
+    #counter-up p{
+        font-size: 14px;
+        margin: 0px 0px;
+    }
+    #counter-up p::before{
+        width: 0;
+    }
+    #counter-up p::after{
+        width: 0;
+    }
+
+    /* --------------counter-up-part css end------------- */
+
+
+    /* --------------course-part css start------------- */
+
+    #course-part {
+        padding: 20px 0px;
+    }
+    #course-part .item{
+        margin-right: 0;
+    }
+    #course-part .item .portfolio .left .text {
+        left: 65px;
+    }
+    #course-part .item .portfolio .left .text .johan {
+        font-size: 13px;
+    }
+    #course-part .item .portfolio .right i {
+        font-size: 10px;
+    }
+    #course-part .item .description h1 {
+        font-size: 20px;
+    }
+    #course-part .item .shedule p {
+        font-size: 10px;
+    }
+    #course-part .item .shedule .number {
+        font-size: 12px;
+    }
+    #course-part .item .btn {
+        bottom: -30px;
+    }
+    #course-part .item .btn a{
+        padding: 12px;
+    }
+    /* --------------course-part css end------------- */
+
+    /* --------------events-part css start------------- */
+    #events-part{
+        padding-bottom: 15px;
+    }
+#events-part .img{
+    width: 100%;
+    padding: 0;
+}
+#events-part .bootcamp{
+    margin-top: 20px;
+    height: auto;
+    margin-bottom: 0;
+}
+#events-part .bootcamp .text{
+    margin-left: 10px;
+}
+#events-part .bootcamp .text h1 {
+	font-size: 13px;
+	margin-top: 0;
+	padding-right: 0;
+}#events-part .bootcamp .text p {
+	font-size: 13px;
+    margin: 8px 0;
+}
+#events-part .bootcamp .text ul li {
+	font-size: 13px;
+}
+#events-part .bootcamp .text a {
+	padding: 8px 8px;
+	font-size: 13px;
+}
+
+
+#events-part .summit{
+    margin-top: 20px;
+    height: auto;
+}
+#events-part .summit .text{
+    margin-left: 10px;
+}
+#events-part .summit .text h1 {
+	font-size: 13px;
+	margin-top: 0;
+	padding-right: 0;
+}#events-part .summit .text p {
+	font-size: 13px;
+    margin: 8px 0;
+}
+#events-part .summit .text ul li {
+	font-size: 13px;
+}
+#events-part .summit .text a {
+	padding: 8px 8px;
+	font-size: 13px;
+}
+#events-part .summit .img {
+	height: auto;
+}
+
+    /* --------------events-part css end------------- */
+    
+    /* --------------testimonial-part css start------------- */
+    #testimonial-part{
+        padding: 0 0;
+    }
+    #testimonial-part .accordion .accordion-button {
+        font-size: 16px;
+    }
+    #testimonial-part .accordion .accordion-button i {
+        font-size: 16px;
+        right: 20px;
+    }
+
+    /* --------------testimonial-part css end------------- */
+    /* --------------teacher-part css start------------- */
+   #teacher-part{
+       padding: 40px 0;
+   }
+   #teacher-part .text p::before {
+	width: 0px;
+}
+#teacher-part .text p::after {
+	width: 0px;
+}
+    /* --------------teacher-part css end------------- */
+
+    /* --------------blog-part css start------------- */
+    .gal-top .blog_item{
+        margin-bottom: 10px;
+    }
+    .blog-galarry .blog_item .blog-gtop1 ul {
+        width: 0;
+    }
+    .gal-top .blog_item .blog-gtop1 .bgal-text{
+        margin-top: -80px;
+    }
+    .gal-top .blog_item .blog-gtop1 .bgal-text h4 a {
+        font-size: 13px;
+        padding-left: 5px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+    .gal-top .blog_item .blog-gtop1 .bgal-text a {
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    .blog-galarry .blog_item .blog-gtop1:hover i{
+        opacity: 0;
+    }
+    .blog-galarry .blog_item .blog-gtop1:hover .g-top1-footer .date p{
+        opacity: 0;
+    }
+    .gal-bottom {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .gal-bottom .blog_item{
+        margin-bottom: 10px;
+    }
+    .gal-bottom .blog_item .btm-text1 .bgal-text h4 {
+        font-size: 13px;
+        margin-top: 80px;
+    }
+    /* --------------blog-part css end------------- */
+
+    /* --------------footer-part css start------------- */
+    #footer-part .logotwo {
+        margin-bottom: 15px;
+        margin-left: 100px;
+    }
+    #footer-part h2 {
+        text-align: center;
+    }
+    #footer-part .text {
+        text-align: center;
+    }
+    #footer-part .text .left{
+        margin-bottom: 15px;
+    }
+    #footer-part .text p{
+        padding-right: 0;
+    }
+    #footer-part .icons {
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #footer-part .left {
+        text-align: center;
+    }
+    #footer-part ul li {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    #footer-part .text-right p span {
+        margin-bottom: 2px;
+        font-size: 13px;
+    }
+    #footer-part .text-right p {
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    /* --------------footer-part css end------------- */
+
+
+}
+@media (min-width:576px) and (max-width:767px){
+
+    /* -----------common css start---------------- */
+    .title p{
+        width: 100%;
+    }
+    /* -----------common css end---------------- */
+
+            /* --------------header-part css start------------- */
+            #header-part{
+                text-align: center;
+            }
+            #header-part span{
+                display: block;
+            }
+            #header-part a{
+                display: inline-block;
+            }
+            #header-part .right{
+                text-align: center;
+            }
+            /* --------------header-part css end------------- */
+
+
+            /* --------------navbar-part css start------------- */
+    nav button i{
+        margin-top: 20px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0rem;
+    }
+    .navbar-collapse{
+        margin-bottom: 10px;
+        margin-left: 32px;
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav .btn{
+        display: block;
+    }
+    nav .btn a {
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+            /* --------------navbar-part css end------------- */
+
+            /* --------------bannner-part css start------------- */
+    #banner-part .banner .overlay{
+        padding: 30px 0;
+    }
+    #banner-part .banner .overlay .item h3{
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay .item h2{
+        font-size: 28px;
+    }
+    #banner-part .banner .overlay .item p{
+        width: 100%;
+    }
+    #banner-part .banner .overlay .item p{
+        margin-top: 10px;
+    }
+    #banner-part .banner .overlay .item a{
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+            /* --------------bannner-part css end------------- */
+
+            /* --------------bannner-bottom-part css start------------- */
+
+    #banner-bottom{
+        margin-left:0 ;
+        margin-bottom: 20px;
+    }
+    #banner-bottom .item{
+        transform: translate(0%);
+    }
+    /* --------------bannner-bottom-part css end------------- */
+
+   /* --------------about-part css start------------- */
+  
+   #about-part{}
+   #about-part .shape::before {
+	top: 30px;
+	left: 204px;
+	height: 2px;
+}
+   #about-part .shape::after {
+	top: 30px;
+	width: 200px;
+	height: 2px;
+}
+#about-part .shape2::before {
+	bottom: 30px;
+	right: 204px;
+	width: 10px;
+	height: 2px;
+    margin-right: 30px;
+}
+#about-part .shape2::after {
+	bottom: 30px;
+	right: 0px;
+	width: 200px;
+	height: 2px;
+    margin-right: 30px;
+}
+   #about-part .slick-dots{
+       bottom: 25px;
+       left: 32%;
+   }
+   #about-part .text p {
+	margin-bottom: 15px;
+}
+#about-part .text a {
+	font-size: 16px;
+	padding: 12px 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+    /* --------------about-part css end------------- */
+
+
+    /* --------------counter-up-part css start------------- */
+    #counter-up{
+        padding: 30px 0px;
+    }
+    #counter-up h3{
+        font-size: 18px;
+    }
+    #counter-up p{
+        font-size: 14px;
+        margin: 0px 0px;
+    }
+    #counter-up p::before{
+        width: 0;
+    }
+    #counter-up p::after{
+        width: 0;
+    }
+
+    /* --------------counter-up-part css end------------- */
+
+
+    /* --------------course-part css start------------- */
+
+    #course-part {
+        padding: 20px 0px;
+    }
+    #course-part .item{
+        margin-right: 0;
+    }
+    #course-part .item .portfolio .left .text {
+        left: 65px;
+    }
+    #course-part .item .portfolio .left .text .johan {
+        font-size: 13px;
+    }
+    #course-part .item .portfolio .right i {
+        font-size: 10px;
+    }
+    #course-part .item .description h1 {
+        font-size: 20px;
+    }
+    #course-part .item .shedule p {
+        font-size: 10px;
+    }
+    #course-part .item .shedule .number {
+        font-size: 12px;
+    }
+    #course-part .item .btn {
+        bottom: -30px;
+    }
+    #course-part .item .btn a{
+        padding: 12px;
+    }
+    /* --------------course-part css end------------- */
+
+    /* --------------events-part css start------------- */
+    #events-part{
+        padding-bottom: 15px;
+    }
+#events-part .img{
+    width: 100%;
+    padding: 0;
+}
+#events-part .bootcamp{
+    margin-top: 20px;
+    height: auto;
+    margin-bottom: 0;
+}
+#events-part .bootcamp .text{
+    margin-left: 10px;
+}
+#events-part .bootcamp .text h1 {
+	font-size: 13px;
+	margin-top: 0;
+	padding-right: 0;
+}#events-part .bootcamp .text p {
+	font-size: 13px;
+    margin: 8px 0;
+}
+#events-part .bootcamp .text ul li {
+	font-size: 13px;
+}
+#events-part .bootcamp .text a {
+	padding: 8px 8px;
+	font-size: 13px;
+}
+
+
+#events-part .summit{
+    margin-top: 20px;
+    height: auto;
+}
+#events-part .summit .text{
+    margin-left: 10px;
+}
+#events-part .summit .text h1 {
+	font-size: 13px;
+	margin-top: 0;
+	padding-right: 0;
+}#events-part .summit .text p {
+	font-size: 13px;
+    margin: 8px 0;
+}
+#events-part .summit .text ul li {
+	font-size: 13px;
+}
+#events-part .summit .text a {
+	padding: 8px 8px;
+	font-size: 13px;
+}
+#events-part .summit .img {
+	height: auto;
+}
+
+    /* --------------events-part css end------------- */
+    
+    /* --------------testimonial-part css start------------- */
+    #testimonial-part{
+        padding: 0 0;
+    }
+    #testimonial-part .accordion .accordion-button {
+        font-size: 16px;
+    }
+    #testimonial-part .accordion .accordion-button i {
+        font-size: 16px;
+        right: 20px;
+    }
+
+    /* --------------testimonial-part css end------------- */
+    /* --------------teacher-part css start------------- */
+   #teacher-part{
+       padding: 40px 0;
+   }
+   #teacher-part .text p::before {
+	width: 0px;
+}
+#teacher-part .text p::after {
+	width: 0px;
+}
+    /* --------------teacher-part css end------------- */
+
+    /* --------------blog-part css start------------- */
+    .gal-top .blog_item{
+        margin-bottom: 10px;
+    }
+    .blog-galarry .blog_item .blog-gtop1 ul {
+        width: 0;
+    }
+    .gal-top .blog_item .blog-gtop1 .bgal-text{
+        margin-top: -80px;
+    }
+    .gal-top .blog_item .blog-gtop1 .bgal-text h4 a {
+        font-size: 13px;
+        padding-left: 5px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+    .gal-top .blog_item .blog-gtop1 .bgal-text a {
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    .blog-galarry .blog_item .blog-gtop1:hover i{
+        opacity: 0;
+    }
+    .blog-galarry .blog_item .blog-gtop1:hover .g-top1-footer .date p{
+        opacity: 0;
+    }
+    .gal-bottom {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .gal-bottom .blog_item{
+        margin-bottom: 10px;
+    }
+    .gal-bottom .blog_item .btm-text1 .bgal-text h4 {
+        font-size: 13px;
+        margin-top: 80px;
+    }
+    /* --------------blog-part css end------------- */
+
+    /* --------------footer-part css start------------- */
+    #footer-part .logotwo {
+        margin-bottom: 15px;
+        margin-left: 100px;
+    }
+    #footer-part h2 {
+        text-align: center;
+    }
+    #footer-part .text {
+        text-align: center;
+    }
+    #footer-part .text .left{
+        margin-bottom: 15px;
+    }
+    #footer-part .text p{
+        padding-right: 0;
+    }
+    #footer-part .icons {
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #footer-part .left {
+        text-align: center;
+    }
+    #footer-part ul li {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    #footer-part .text-right p span {
+        margin-bottom: 2px;
+        font-size: 13px;
+    }
+    #footer-part .text-right p {
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    /* --------------footer-part css end------------- */
+
+
+}
