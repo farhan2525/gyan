@@ -253,6 +253,12 @@
         font-size: 16px;
         right: 20px;
     }
+    #testimonial-part .fa-angle-left{
+        width: 0px;
+    }
+    #testimonial-part .fa-angle-right{
+        width: 0px;
+    }
 
     /* --------------testimonial-part css end------------- */
     /* --------------teacher-part css start------------- */
@@ -589,7 +595,12 @@
         font-size: 18px;
         right: 20px;
     }
-
+    #testimonial-part .fa-angle-left{
+        width: 0px;
+    }
+    #testimonial-part .fa-angle-right{
+        width: 0px;
+    }
     /* --------------testimonial-part css end------------- */
     /* --------------teacher-part css start------------- */
    #teacher-part{
@@ -881,7 +892,12 @@
         font-size: 20px;
         right: 20px;
     }
-
+    #testimonial-part .fa-angle-left{
+        width: 0px;
+    }
+    #testimonial-part .fa-angle-right{
+        width: 0px;
+    }
     /* --------------testimonial-part css end------------- */
     /* --------------teacher-part css start------------- */
    #teacher-part{

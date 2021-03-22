@@ -176,7 +176,7 @@ rev.on('init', function(event, slick, currentSlide) {
 
 rev.slick({
   speed: 1000,
-  arrows: false,
+  arrows: true,
   dots: false,
   focusOnSelect: true,
   infinite: true,
