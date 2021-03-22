@@ -9,12 +9,13 @@ $('.banner-slider').slick({
   nextArrow:'<i class="fas fa-angle-right"></i>',
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: true,
+        arrows:false,
       }
     },
     {
@@ -22,17 +23,17 @@ $('.banner-slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots:false,
+        dots:true,
         arrows:false,
       }
     },
     {
-      breakpoint: 481,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows:false,
-        dots:0,
+        dots:true,
       }
     }
   ]
@@ -105,12 +106,13 @@ $('.course-slider').slick({
  centerPadding:'0',
  responsive: [
   {
-    breakpoint: 1024,
+    breakpoint: 992,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 2,
+      slidesToScroll: 1,
       infinite: true,
-      dots: true
+      arrows:true,
+      dots: false,
     }
   },
   {
@@ -123,12 +125,12 @@ $('.course-slider').slick({
     }
   },
   {
-    breakpoint: 481,
+    breakpoint: 576,
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows:0,
-      dots:0,
+      arrows:false,
+      dots:false,
     }
   }
   // You can unslick at a given breakpoint now by adding:
@@ -187,6 +189,8 @@ rev.slick({
     return '';
   },
       asNavFor:'.faq_text_slider',
+      prevArrow:'<i class="fas fa-angle-left"></i>',
+      nextArrow:'<i class="fas fa-angle-right"></i>',
 });
 
 $('.faq_text_slider').slick({
@@ -212,23 +216,25 @@ $('.footer-slider').slick({
   focusOnSelect: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false,
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+        arrows:0,
+        dots:0,
       }
     },
     {
-      breakpoint: 481,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -236,8 +242,5 @@ $('.footer-slider').slick({
         dots:0,
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });

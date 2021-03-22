@@ -116,7 +116,9 @@ nav ul li .active {
 nav ul li a:hover {
     color: #fbaa33;
 }
-
+nav .btn{
+    padding:0 0;
+}
 nav .btn a {
     font-family: 'Arimo', sans-serif;
     font-size: 20px;
@@ -250,7 +252,29 @@ banner-part css start
     background: #fbaa33;
     border-color: #fbaa33;
 }
+#banner-part .slick-dots{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#banner-part .slick-dots li {
+    display: inline-block;
+    outline: 0;
+}
 
+#banner-part .slick-dots li button{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fbaa33;
+    border-radius: 50%;
+    background: transparent;
+    margin-right: 8px;
+}
+#banner-part .slick-dots .slick-active button{
+background-color: #fbaa33;
+}
 /*=====================================
 banner-part css end
 =======================================*/
@@ -258,12 +282,12 @@ banner-part css end
 banner-bottom-part css start
 =======================================*/
 #banner-bottom{
-    margin-left: 50px;
+   margin-left: 40px;
 }
 #banner-bottom .item {
     text-align: center;
     box-sizing: border-box;
-    padding: 50px 90px;
+    padding: 50px 50px;
     background: #f5f5f5;
     transform: translateY(-50%);
     border: 1px solid #ddd;
@@ -306,8 +330,6 @@ banner-bottom-part css end
 /*=====================================
 about-part css start
 =======================================*/
-#about-part {}
-
 #about-part .shape {
     margin-top: -70px;
     position: relative;
@@ -527,7 +549,7 @@ counter-up-part css start
 #counter-up p::after {
     position: absolute;
     bottom: -10px;
-    left: 100px;
+    left: 110px;
     width: 50px;
     height: 3px;
     background: #fbaa33;
@@ -537,7 +559,7 @@ counter-up-part css start
 #counter-up p::before {
     position: absolute;
     bottom: -10px;
-    left: 155px;
+    left: 165px;
     width: 10px;
     height: 3px;
     background: #fbaa33;
@@ -807,7 +829,7 @@ course-part css end
 
 #events-part .img {
     background: #f5f5f5;
-    padding: 30px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
@@ -1031,8 +1053,8 @@ course-part css end
     height: 3px;
     background: #fbaa38;
     position: absolute;
-    top: 25px;
-    left: 10px;
+    top: 27px;
+    left: 40px;
     content: "";
 
 }
@@ -1042,8 +1064,8 @@ course-part css end
     height: 3px;
     background: #fbaa38;
     position: absolute;
-    top: 25px;
-    left: 230px;
+    top: 27px;
+    left: 260px;
     content: "";
 }
 
@@ -1210,6 +1232,7 @@ course-part css end
 
 #testimonial-part .accordion-item {
     margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 8px #ddd;
 }
 
 #testimonial-part .accordion .accordion-button {
@@ -1263,7 +1286,40 @@ course-part css end
 #testimonial-part .accordion-collapse {
     border: 0;
 }
-
+#testimonial-part .fa-angle-left{
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    background: #fbaa33;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 35%;
+    left: -40px;
+    transition: .4s;
+}
+#testimonial-part .fa-angle-left:hover{
+    background: #2d3e50;
+}
+#testimonial-part .fa-angle-right{
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    background: #fbaa33;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 55%;
+    left: -40px;
+    transition: .4s;
+}
+#testimonial-part .fa-angle-right:hover{
+background: #2d3e50;
+}
 /*=====================================
    testimonial-part css end
 =======================================*/
@@ -1279,7 +1335,6 @@ course-part css end
 #teacher-part .img {
     position: relative;
     cursor: pointer;
-    display: block;
     transition: .4s;
 }
 
